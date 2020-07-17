@@ -1,30 +1,9 @@
 let tree;
 
-// let initialValues = [
-//   6,
-//   3,
-//   4,
-//   2,
-//   5,
-//   4,
-//   2,
-//   1,
-//   0.5,
-//   0.25,
-//   0.1,
-//   0.01,
-//   0.001,
-//   0.00001,
-//   7,
-//   8,
-//   9,
-//   10,
-//   11,
-// ];
 
 let initialValues = [];
 
-for (let i = 0; i < 30; i++) {
+for (let i = 0; i < 100; i++) {
   initialValues[i] = Math.floor(Math.random(100) * 100);
 }
 

@@ -43,7 +43,7 @@ Node.prototype.drawNodes = function (rowHeight, nodeSize, level) {
   }
 
   textSize(valueSize);
-  text(this.value, 0, 0);
+  text(this.depth, 0, 0);
 
   let r = nodeSize / 2;
   let offsetY = r * Math.cos(angle1);
