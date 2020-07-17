@@ -59,7 +59,7 @@ Node.prototype.rebalance = function () {
   } else if (this.balance === 2) {
     if (this.left.balance < 0) {
       //LR
-      let shifted = this.left.rotateRight();
+      let shifted = this.left.rotateLeft();
       this.left = shifted;
       return this.rotateRight();
 
