@@ -1,6 +1,5 @@
 let tree;
 
-
 let initialValues = [];
 
 for (let i = 0; i < 100; i++) {
@@ -8,7 +7,7 @@ for (let i = 0; i < 100; i++) {
 }
 
 function setup() {
-  createCanvas(900, 600);
+  createCanvas(windowWidth, windowHeight - 10);
 
   tree = new Tree();
 
